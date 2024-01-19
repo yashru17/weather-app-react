@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#heading{
+    color: grey;
+}
+#root{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+}
+.input{
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.input input{
+    font-size: larger;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+#search{
+    font-size: larger;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.card{
+    /* border: 1px solid black; */
+    width: 400px;
+    /* margin: auto; */
+    padding:20px 30px 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 100px;
+    margin: 0 10px;
+}
+
+.card #text{
+    transform: translate(0, -5px);
+}
+
+#temp{
+    margin: 40px 0 20px;
+}
+
+#refresh{
+    font-size: larger;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.specs{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+span{
+    text-align: center;
+}
+
+.specs-title{
+    color: grey;
+    margin-bottom: 5px;
+}
