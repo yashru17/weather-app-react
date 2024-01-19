@@ -14,8 +14,12 @@
     gap: 30px;
     justify-content: center;
     align-items: center;
-    background-color: #eeeeee;
+    /* background-color: #eeeeee; */
+    background: url('./assets/weather2.jpg') no-repeat center;
+    background-size: cover;
 }
+
+
 .input{
     border: 1px solid #dddddd;
     border-radius: 10px;
@@ -39,7 +43,7 @@
 }
 
 .card{
-    /* border: 1px solid black; */
+    /* border: 1px solid orange; */
     width: 400px;
     /* margin: auto; */
     padding:20px 30px 40px;
@@ -47,10 +51,12 @@
     display: flex;
     flex-direction: column;
     /* gap: 20px; */
+    background-color: rgba(255, 255, 255, 0.524);
     justify-content: center;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 5px 15px;
     border-radius: 20px;
+    
 }
 
 .card img{
@@ -64,6 +70,7 @@
 
 #temp{
     margin: 40px 0 20px;
+    /* color: rgb(229, 229, 229); */
 }
 
 #refresh{
@@ -84,6 +91,7 @@
     gap: 20px;
     justify-content: space-evenly;
     align-items: center;
+    color: black;
 }
 
 span{
@@ -91,6 +99,6 @@ span{
 }
 
 .specs-title{
-    color: grey;
+    color: rgb(51, 51, 51);
     margin-bottom: 5px;
 }
